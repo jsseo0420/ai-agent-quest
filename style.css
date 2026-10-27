@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 16px;
+  font-family: "Malgun Gothic", sans-serif;
+  background: #f1f3f4;
+  color: #202124;
+}
+
+header {
+  max-width: 600px;
+  margin: 40px auto 24px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.editor {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  border: none;
+  outline: none;
+  resize: vertical;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+#save-btn {
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  background: #1a73e8;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#save-btn:hover {
+  background: #1765cc;
+}
+
+#memo-list {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.card-no {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #1a73e8;
+}
